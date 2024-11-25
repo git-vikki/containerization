@@ -6,7 +6,7 @@ pipieline
     stage('container'){
       steps
       {
-        
+       sh 'mkdir abc' 
       }
     }
   }
